@@ -1,0 +1,55 @@
+{{ define "main" }}
+<!-- {{- $readMore := (T "readMore") | default "Read more →" -}} -->
+  <div class='hx-mx-auto hx-flex {{ partial "utils/page-width" . }}'>
+    {{ partial "sidebar.html" (dict "context" .) }}
+    <!-- {{ partial "toc.html" . }} -->
+    <!-- {{ partial "sidebar.html" (dict "context" . "disableSidebar" false "displayPlaceholder" false) }} -->
+    <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
+      <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6 hx-pt-4 md:hx-px-12">
+        <!-- CSTM start -->
+        {{ partial "breadcrumb.html" . }}
+        <!-- CSTM end -->
+        <div class="content">
+          <h1>{{ .Title }}</h1>
+          {{ if eq .Kind "taxonomy" }}
+            <!-- Series Index Listing -->
+            {{ $allCats := (T "allCats" ) }}
+            {{ $postsInCat := (T "postsInCat") }}
+            <h2>{{ $allCats }}</h2>
+            <ul style="list-style: none; margin-left: 0;">
+              {{- range $.Site.Taxonomies.series.Alphabetical -}}
+                <li>
+                  <a href="{{ .Page.RelPermalink }}" title="{{ $postsInCat }} {{ .Page.Title }}">{{ .Page.Title }}</a>  <sup>{{ .Count }}</sup>
+                </li>
+              {{ end }}
+            </ul>
+          {{ else if eq .Kind "term" }}
+            <!-- Series Listing -->
+            {{ $catName := .Title }} <!-- Assuming you're in the context of a specific category -->
+            {{ $catPosts := where .Site.RegularPages "Params.series" "intersect" (slice $catName) }}
+            {{ $noPosts := (T "noPosts") }}
+            {{ $postsInCat := (T "postsInCat") }}
+
+            {{ if gt (len $catPosts) 0 }}
+              <h2>{{ $postsInCat }} "{{ $catName }}"</h2>
+              <ul style="list-style: none; margin-left: 0;">
+                {{ range $catPosts.ByDate.Reverse }}
+                  <li style="display: hx-flex; align-items: baseline;">
+                    <span style="hx-flex: 0 0 120px;">{{ .Date.Format "Jan 02, 2006" }}</span>
+                    <a style="text-decoration: none;" href="{{ .RelPermalink }}" title="{{ .Title }}">{{ .Title }}</a>
+                  </li>
+                {{ end }}
+              </ul>
+            {{ else }}
+              <p>{{ $noPosts }}</p>
+            {{ end }}
+          {{ end }}
+          {{ .Content }}
+        </div>
+        <div class="hx-mt-16"></div>
+        <!-- {{ partial "components/last-updated.html" . }} -->
+        <!-- {{ partial "components/comments.html" . }} -->
+      </main>
+    </article>
+  </div>
+{{ end }}
