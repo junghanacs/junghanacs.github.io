@@ -244,10 +244,10 @@ params:
 
     # https://giscus.app/
     giscus:
-      repo: junghan0611/junghanacs.com
-      repoId: R_kgDOLyemTw
+      repo: junghanacs/junghanacs.github.io
+      repoId: R_kgDOM5ER8w
       category: Announcements
-      categoryId: DIC_kwDOLyemT84Ce5jG
+      categoryId: DIC_kwDOM5ER884Ci6Wa
       mapping: pathname
       strict: 0
       reactionsEnabled: 1

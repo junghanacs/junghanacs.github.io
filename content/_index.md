@@ -29,6 +29,6 @@ toc: false
 {{< card link="docs" title="Docs" icon="book-open" >}}
 {{< card link="blog" title="Blog" icon="sun">}}
 {{< card link="notes" title="Notes" icon="star" >}}
-{{< card link="/series/journal" title="Journal" icon="calendar" >}}
+{{< card link="/categories/journal" title="Journal" icon="calendar" >}}
 {{< card link="talks" title="Talks" icon="sparkles" >}}
 {{< card link="about" title="About" icon="user">}}
