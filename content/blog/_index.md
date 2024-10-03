@@ -9,7 +9,7 @@ comments: false
 
 <!--more-->
 
-<div class="c4w-badges" style="text-align: center; margin-top: 1em;">
+<div class="c4w-badges" style="text-align: center; margin-top: 1em; margin-bottom: 1em;">
 
 <!-- {{< hextra/hero-badge link="https://emacs.ch/@junghanacs" >}} -->
 <!--   {{< icon name="mastodon" attributes="height=14" >}} -->

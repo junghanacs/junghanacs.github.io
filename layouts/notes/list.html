@@ -17,48 +17,53 @@
       <div class="hx-mb-4">
         <h4>
           <a style="color: inherit; text-decoration: none"
-            class="hx-block hx-font-semibold hx-mt-4 hx-text-xl"
-            href="{{ .RelPermalink }}">
+             class="hx-block hx-font-normal hx-text-lg"
+             href="{{ .RelPermalink }}">
+
+            {{ "⯈ " }}
+            {{ partial "utils/format-date" .Date }}
             {{ .Title }}
             </a>
         </h4>
 
-        <!-- <p class="hx-opacity-50 hx-text-sm hx-mt-4 hx-leading-7">{{ partial "utils/format-date" .Date }}</p> -->
+        <!-- <span class="hx-opacity-50 hx-text-sm hx-mt-4 hx-leading-7"> {{ partial "utils/format-date" .Date }}</span>
 
-        <span class="hx-opacity-50 hx-text-sm hx-mt-4 hx-leading-7"> {{ partial "utils/format-date" .Date }}</span>
+             {{- if site.Params.notes.list.displayTags -}} {{ with .Params.categories}}
+             <span class="hx-opacity-90 hx-text-sm hx-leading-4 hx-mt-4">
+             {{- range . }}
+             <a
+             href="/categories/{{ . | anchorize }}"
+             class="hx-mr-2 not-prose hx-font-semibold hx-inline-flex hx-items-center hx-gap-2 hx-my-1 hx-px-3 hx-text-xs hx-text-gray-600 dark:hx-text-gray-400 hx-bg-gray-100 dark:hx-bg-neutral-800 dark:hx-border-neutral-800 hx-border hover:hx-border-gray-400 dark:hover:hx-text-gray-50 dark:hover:hx-border-gray-600 hx-transition-all hx-ease-in hx-duration-200"
+             >
+             {{ partial "utils/icon.html" (dict "name" "tag" "attributes"
+             "height=12") }} {{ . }}
+             </a>
+             {{ end -}}
+             </span>
+             {{ end -}} {{- end -}}
 
-        {{- if site.Params.notes.list.displayTags -}} {{ with .Params.categories}}
-        <span class="hx-opacity-90 hx-text-sm hx-leading-4 hx-mt-4">
-          {{- range . }}
-          <a
-            href="/categories/{{ . | anchorize }}"
-            class="hx-mr-2 not-prose hx-font-semibold hx-inline-flex hx-items-center hx-gap-2 hx-my-1 hx-px-3 hx-text-xs hx-text-gray-600 dark:hx-text-gray-400 hx-bg-gray-100 dark:hx-bg-neutral-800 dark:hx-border-neutral-800 hx-border hover:hx-border-gray-400 dark:hover:hx-text-gray-50 dark:hover:hx-border-gray-600 hx-transition-all hx-ease-in hx-duration-200"
-          >
-            {{ partial "utils/icon.html" (dict "name" "tag" "attributes"
-            "height=12") }} {{ . }}
-          </a>
+             {{- if site.Params.notes.list.displayTags -}} {{with .Params.tags }}
+             <span class="hx-opacity-80 hx-text-sm hx-leading-4 hx-mt-4">
+             {{- range . }}
+             <a
+             href="/tags/{{ . | anchorize }}"
+             class="hx-mr-2 not-prose hx-inline-flex hx-items-center hx-rounded-full hx-gap-2 hx-my-1 hx-px-3 hx-text-xs hx-text-gray-600 dark:hx-text-gray-400 hx-bg-gray-100 dark:hx-bg-neutral-800 dark:hx-border-neutral-800 hx-border hover:hx-border-gray-400 dark:hover:hx-text-gray-50 dark:hover:hx-border-gray-600 hx-transition-all hx-ease-in hx-duration-200"
+             >
+             {{ partial "utils/icon.html" (dict "name" "hashtag" "attributes"
+             "height=12") }} {{ . }}
+             </a>
+             {{ end -}}
+             </span>
+             {{ end -}} {{- end -}} -->
+
+        <!-- description 있는 경우만 표기 -->
+        <p class="hx-opacity-80 ">
+          <!-- {{- partial "utils/page-description" . -}} -->
+          {{ with .Description | plainify | htmlUnescape -}}
+          {{ "⇒ " }}
+          {{ . -}}
           {{ end -}}
-        </span>
-        {{ end -}} {{- end -}}
-
-        {{- if site.Params.notes.list.displayTags -}} {{with .Params.tags }}
-        <span class="hx-opacity-80 hx-text-sm hx-leading-4 hx-mt-4">
-          {{- range . }}
-          <a
-            href="/tags/{{ . | anchorize }}"
-            class="hx-mr-2 not-prose hx-inline-flex hx-items-center hx-rounded-full hx-gap-2 hx-my-1 hx-px-3 hx-text-xs hx-text-gray-600 dark:hx-text-gray-400 hx-bg-gray-100 dark:hx-bg-neutral-800 dark:hx-border-neutral-800 hx-border hover:hx-border-gray-400 dark:hover:hx-text-gray-50 dark:hover:hx-border-gray-600 hx-transition-all hx-ease-in hx-duration-200"
-          >
-            {{ partial "utils/icon.html" (dict "name" "hashtag" "attributes"
-            "height=12") }} {{ . }}
-          </a>
-          {{ end -}}
-        </span>
-        {{ end -}} {{- end -}}
-
-        <!-- 짧은 설명이 필요하다면 -->
-        <!-- <p class="hx-opacity-80 hx-mt-4 hx-leading-7">
-             {{- partial "utils/page-description" . -}}
-             </p> -->
+        </p>
         <!-- <p class="hx-opacity-80 hx-mt-4 hx-leading-7">
              <a
              class="hx-text-[color:hsl(var(--primary-hue),100%,50%)] hx-underline hx-underline-offset-2 hx-decoration-from-font"

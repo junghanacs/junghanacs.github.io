@@ -10,7 +10,7 @@ comments: false
 
 <!--more-->
 
-<div class="c4w-badges" style="text-align: center; margin-top: 2em;">
+<div class="c4w-badges" style="text-align: center; margin-top: 1em; margin-bottom: 2em;">
 
 <!-- {{< hextra/hero-badge link="https://emacs.ch/@junghanacs" >}} -->
 <!--   {{< icon name="mastodon" attributes="height=14" >}} -->
@@ -46,6 +46,5 @@ comments: false
 <!--   {{< icon name="rss" attributes="height=14" >}} -->
 <!--   <span>RSS</span> -->
 <!-- {{< /hextra/hero-badge >}} -->
-
 </div>
 
