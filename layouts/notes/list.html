@@ -10,16 +10,15 @@
         {{ .Title }}
       </h1>
 
+      <!-- hx-underline hx-underline-offset-2 hx-decoration-from-font-->
       <div class="content">{{ .Content }}</div>
       {{- $pages := partial "utils/sort-pages" (dict "page" . "by"
       site.Params.notes.list.sortBy "order" site.Params.notes.list.sortOrder) -}}
       {{- range $pages }}
       <div class="hx-mb-4">
         <h4>
-          <a style="color: inherit; text-decoration: none"
-             class="hx-block hx-font-normal hx-text-lg"
+          <a class="hx-block hx-font-normal hx-text-lg "
              href="{{ .RelPermalink }}">
-
             {{ "• " }}
             {{ partial "utils/format-date" .Date }}
             {{ .Title }}
