@@ -117,25 +117,25 @@ menu:
     #   params:
     #     icon: x-twitter
 
-  sidebar:
-    - identifier: more
-      name: More
-      params:
-        type: separator
-      weight: 1
-    - name: Threads ↗
-      weight: 2
-      url: "https://www.threads.net/@junghanacs"
-      params:
-        icon: threads
-    - name: Mastodon ↗
-      weight: 3
-      url: "https://fosstodon.org/@junghanacs"
-      params:
-        icon: mastodon
-    - name: Allmylinks ↗
-      weight: 8
-      url: "https://allmylinks.com/junghanacs"
+    # sidebar:
+    #   - identifier: more
+    #     name: More
+    #     params:
+    #       type: separator
+    #     weight: 1
+    #   - name: Threads ↗
+    #     weight: 2
+    #     url: "https://www.threads.net/@junghanacs"
+    #     params:
+    #       icon: threads
+    #   - name: Mastodon ↗
+    #     weight: 3
+    #     url: "https://fosstodon.org/@junghanacs"
+    #     params:
+    #       icon: mastodon
+    #   - name: Allmylinks ↗
+    #     weight: 8
+    #     url: "https://allmylinks.com/junghanacs"
     # - name: Github ↗
     #   weight: 4
     #   url: "https://github.com/junghan0611/junghanacs.com"
@@ -172,6 +172,9 @@ menu:
 
 params:
   description: "Meditations on Technology, Learning, Life, and Text-editor"
+
+  sidebar:
+    hide: true
 
   navbar:
     displayTitle: true

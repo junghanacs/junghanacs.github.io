@@ -1,6 +1,6 @@
 {{ define "main" }} {{- $readMore := (T "readMore") | default "Read more →" -}}
 <div class="hx-mx-auto hx-flex {{ partial `utils/page-width` . }}">
-  {{ partial "sidebar.html" (dict "context" .) }}
+  <!-- {{ partial "sidebar.html" (dict "context" .) }} -->
   <article
     class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]"
   >
@@ -130,6 +130,6 @@
       {{ end }} {{ end }} {{ .Content }}
     </main>
   </article>
-  <div class="max-xl:hx-hidden hx-h-0 hx-w-64 hx-shrink-0"></div>
+  <!-- <div class="max-xl:hx-hidden hx-h-0 hx-w-64 hx-shrink-0"></div> -->
 </div>
 {{- end -}}
