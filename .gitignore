@@ -3,6 +3,9 @@ public/
 resources/
 .hugo_build.lock
 static/ltximg/
+static/quartz/
+backup
+repo.txt
 
 # Editor
 .vscode/

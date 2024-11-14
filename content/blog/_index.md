@@ -1,5 +1,5 @@
 ---
-title: "Blog #Essay"
+title: "Blog"
 comments: false
 ---
 
@@ -26,20 +26,20 @@ comments: false
 <!--   <span>LinkedIn</span> -->
 <!-- {{< /hextra/hero-badge >}} -->
 
-{{< hextra/hero-badge link="/series" >}}
-  {{< icon name="collection" attributes="height=14" >}}
-  <span>Series</span>
-{{< /hextra/hero-badge >}}
+<!-- {{< hextra/hero-badge link="/series" >}} -->
+<!--   {{< icon name="collection" attributes="height=14" >}} -->
+<!--   <span>Series</span> -->
+<!-- {{< /hextra/hero-badge >}} -->
 
-{{< hextra/hero-badge link="/categories" >}}
-  {{< icon name="tag" attributes="height=14" >}}
-  <span>Categories</span>
-{{< /hextra/hero-badge >}}
+<!-- {{< hextra/hero-badge link="/categories" >}} -->
+<!--   {{< icon name="tag" attributes="height=14" >}} -->
+<!--   <span>Categories</span> -->
+<!-- {{< /hextra/hero-badge >}} -->
 
-{{< hextra/hero-badge link="/tags" >}}
-  {{< icon name="hashtag" attributes="height=14" >}}
-  <span>Tags</span>
-{{< /hextra/hero-badge >}}
+<!-- {{< hextra/hero-badge link="/tags" >}} -->
+<!--   {{< icon name="hashtag" attributes="height=14" >}} -->
+<!--   <span>Tags</span> -->
+<!-- {{< /hextra/hero-badge >}} -->
 
 {{< hextra/hero-badge link="index.xml" >}}
   {{< icon name="rss" attributes="height=14" >}}

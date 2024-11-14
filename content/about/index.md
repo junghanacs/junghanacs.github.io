@@ -15,9 +15,6 @@ toc: true
 <style>details .details { color: blue; }</style>
 
 {{< callout emoji="🔮" >}}
-"하지만 말할 필요도 없이, 레오나르도는 계획을 실행에 옮기지 못했습니다. 구상을 떠올리는 것 만으로도 충분했습니다."
-월터 아이작슨《레오나르도 다빈치》
-
 "But needless to say, Leonardo never finished executing his plan. Coming up with the conception was enough for him."
 Walter Isaacson 《Leonardo da Vinci》
 {{< /callout >}}
@@ -30,7 +27,7 @@ Walter Isaacson 《Leonardo da Vinci》
 
 분명히 그는 지나치게 집착하고 있다. 때론 위태로워 보인다. 그의 현실의 무능이 주는 무시와 경멸을 받아 낼 여유가 없다. 불안을 품고 산다. 그럼에도 그는 오늘을 두려워 하지 않는다. 왜? 그의 길에 그가 없기 때문이다. 모든 '너' 들에 대한 연민. 특히 모든 아이들을 위해... 그는 다시 새벽에 일어난다. 고요함이 주는 지혜로 오늘을 산다.
 
-Last revised and exported on 2024-09-29 04:06:02 +0900
+Last revised and exported on 2024-11-14 17:03:36 +0900
 
 
 ## Contacts {#contacts}

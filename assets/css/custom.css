@@ -51,16 +51,13 @@ html,
   background-color: hsl(var(--primary-hue) var(--primary-saturation) 10% / 0.1);
 }
 
-/* a:link { */
+/* a:hover { */
+/*   background-color: hsl(var(--primary-hue) var(--primary-saturation) 10% / 0.1); */
 /* } */
 
-a:hover {
-  background-color: hsl(var(--primary-hue) var(--primary-saturation) 10% / 0.1);
-}
-
-a:visited {
-  color: hsl(var(--primary-hue) var(--primary-saturation) 20% / 0.3);
-}
+/* a:visited { */
+/*   color: hsl(var(--primary-hue) var(--primary-saturation) 20% / 0.3); */
+/* } */
 
 /* .content { */
 /*   font-family: "Times New Roman", Times, serif; */

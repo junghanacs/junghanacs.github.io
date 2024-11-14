@@ -64,14 +64,13 @@ menu:
       name: Blog
       pageRef: /blog
       weight: 2
-    - identifier: notes
-      name: Notes
-      pageRef: /notes
-      weight: 3
-    - identifier: journal
-      name: Journal
-      pageRef: /categories/journal
-      weight: 4
+        # - identifier: journal
+        #   name: Journal
+        #   pageRef: /categories/journal
+        #   weight: 4
+        # - name: Notes ↗
+        #  weight: 4
+        #  url: "https://notes.junghanacs.com"
     - identifier: talks
       name: Talks
       pageRef: /talks
@@ -89,8 +88,8 @@ menu:
       url: "https://www.threads.net/@junghanacs"
       params:
         icon: threads
-    # - name: GitHub
-    #   weight: 8
+          # - name: GitHub
+          #   weight: 8
     #   url: "https://github.com/junghan0611/junghanacs.com"
     #   params:
     #     icon: github
@@ -209,7 +208,7 @@ params:
   # Search
   # flexsearch is enabled by default
   search:
-    enable: true
+    enable: false
     type: flexsearch
 
     flexsearch:
@@ -230,15 +229,6 @@ params:
       displaySeries: true
       # date | lastmod | publishDate | title | weight
       sortBy: date
-      sortOrder: desc # asc
-
-  notes:
-    list:
-      displayTags: true
-      displayCategories: true
-      displaySeries: true
-      # date | lastmod | publishDate | title | weight
-      sortBy: lastmod
       sortOrder: desc # asc
 
   comments:
