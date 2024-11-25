@@ -68,28 +68,28 @@ menu:
         #   name: Journal
         #   pageRef: /categories/journal
         #   weight: 4
-        # - name: Notes ↗
-        #  weight: 4
-        #  url: "https://notes.junghanacs.com"
     - identifier: talks
       name: Talks
       pageRef: /talks
-      weight: 5
+      weight: 4
     - identifier: about
       name: About
       pageRef: /about
+      weight: 5
+    - name: Notes ↗
       weight: 6
+      url: "https://notes.junghanacs.com"
     - name: Search
       weight: 7
       params:
         type: search
-    - name: Threads ↗
-      weight: 8
-      url: "https://www.threads.net/@junghanacs"
-      params:
-        icon: threads
-          # - name: GitHub
-          #   weight: 8
+    # - name: Threads ↗
+    #   weight: 8
+    #   url: "https://www.threads.net/@junghanacs"
+    #   params:
+    #     icon: threads
+    # - name: GitHub
+    #   weight: 8
     #   url: "https://github.com/junghan0611/junghanacs.com"
     #   params:
     #     icon: github
@@ -104,9 +104,6 @@ menu:
     #   params:
     #     icon: mastodon
     # - identifier: notes
-    #   name: Notes ↗
-    #   weight: 5
-    #   url: "https://notes.junghanacs.com"
     # - name: Contact ↗
     #   weight: 6
     #   url: "https://github.com/junghan0611"
@@ -116,25 +113,28 @@ menu:
     #   params:
     #     icon: x-twitter
 
-    # sidebar:
-    #   - identifier: more
-    #     name: More
-    #     params:
-    #       type: separator
-    #     weight: 1
-    #   - name: Threads ↗
-    #     weight: 2
-    #     url: "https://www.threads.net/@junghanacs"
-    #     params:
-    #       icon: threads
-    #   - name: Mastodon ↗
-    #     weight: 3
-    #     url: "https://fosstodon.org/@junghanacs"
-    #     params:
-    #       icon: mastodon
-    #   - name: Allmylinks ↗
-    #     weight: 8
-    #     url: "https://allmylinks.com/junghanacs"
+  sidebar:
+      - identifier: more
+        name: More
+        params:
+          type: separator
+        weight: 1
+      - name: Notes ↗
+        weight: 2
+        url: "https://notes.junghanacs.com"
+      - name: Threads ↗
+        weight: 3
+        url: "https://www.threads.net/@junghanacs"
+        params:
+          icon: threads
+      - name: Links ↗
+        weight: 8
+        url: "https://allmylinks.com/junghanacs"
+    # - name: Mastodon ↗
+    #   weight: 3
+    #   url: "https://fosstodon.org/@junghanacs"
+    #   params:
+    #     icon: mastodon
     # - name: Github ↗
     #   weight: 4
     #   url: "https://github.com/junghan0611/junghanacs.com"
@@ -172,8 +172,8 @@ menu:
 params:
   description: "Meditations on Technology, Learning, Life, and Text-editor"
 
-  sidebar:
-    hide: true
+  # sidebar:
+  #   hide: true
 
   navbar:
     displayTitle: true
@@ -213,7 +213,7 @@ params:
 
     flexsearch:
       # index page by: content | summary | heading | title
-      index: title
+      index: heading
       # full | forward | reverse | strict
       # https://github.com/nextapps-de/flexsearch/#tokenizer-prefix-search
       tokenize: reverse
