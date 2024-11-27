@@ -1,14 +1,15 @@
 ---
-title: "home"
+title: "junghanacs.com"
 author: ["Junghan Kim"]
 date: 2024-04-29T16:57:00+09:00
-lastmod: 2024-09-29T07:19:49+09:00
+lastmod: 2024-11-27T16:50:00+09:00
+keywords: ["homepage"]
 draft: false
 title:
 toc: false
 ---
 
-## #어쏠로지: #인생도구 #시스템  🦾 {#어쏠로지-인생도구-시스템}
+## #어쏠로지: #원라이프 #인생도구 #시스템 {#어쏠로지-원라이프-인생도구-시스템}
 
 -   Authological Thinking
 -   Productivity
@@ -26,9 +27,8 @@ toc: false
 ## #둘러보기 {#둘러보기}
 
 <br>
-{{< card link="docs" title="Docs" icon="book-open" >}}
 {{< card link="blog" title="Blog" icon="sun">}}
-<!-- {{< card link="notes" title="Notes" icon="star" >}} -->
-<!-- {{< card link="/categories/journal" title="Journal" icon="calendar" >}} -->
+{{< card link="docs" title="Docs  "icon="book-open" >}}
 {{< card link="talks" title="Talks" icon="sparkles" >}}
 {{< card link="about" title="About" icon="user">}}
+{{< card link="https://notes.junghanacs.com" title="Notes: Digital-Garden" icon="library">}}
