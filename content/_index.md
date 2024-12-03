@@ -1,13 +1,18 @@
 ---
-title: "junghanacs.com"
+today: "#home: junghanacs.com"
 author: ["Junghan Kim"]
 date: 2024-04-29T16:57:00+09:00
-lastmod: 2024-11-27T16:50:00+09:00
+lastmod: 2024-12-03T16:21:00+09:00
 keywords: ["homepage"]
 draft: false
-title:
+title: "Welcome to #junghanacs"
 toc: false
 ---
+
+## #디지털가든 오픈! {#디지털가든-오픈}
+
+[Welcome to notes@junghanacs - notes.junghanacs.com](https://notes.junghanacs.com/)
+
 
 ## #어쏠로지: #원라이프 #인생도구 #시스템 {#어쏠로지-원라이프-인생도구-시스템}
 

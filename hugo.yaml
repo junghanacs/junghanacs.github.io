@@ -83,6 +83,11 @@ menu:
       weight: 7
       params:
         type: search
+    - name: Bluesky ↗
+      weight: 8
+      url: "https://bsky.app/profile/junghanacs.bsky.social"
+      params:
+        icon: bluesky
     # - name: Threads ↗
     #   weight: 8
     #   url: "https://www.threads.net/@junghanacs"
@@ -122,8 +127,13 @@ menu:
       - name: Notes ↗
         weight: 2
         url: "https://notes.junghanacs.com"
-      - name: Threads ↗
+      - name: Bluesky ↗
         weight: 3
+        url: "https://bsky.app/profile/junghanacs.bsky.social"
+        params:
+          icon: bluesky
+      - name: Threads ↗
+        weight: 4
         url: "https://www.threads.net/@junghanacs"
         params:
           icon: threads
