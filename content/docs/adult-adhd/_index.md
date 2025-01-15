@@ -2,12 +2,10 @@
 title: "Introduction"
 author: ["Junghan Kim"]
 date: 2024-05-18T05:57:00+09:00
-lastmod: 2024-09-24T18:33:12+09:00
 keywords: ["adhd", "adult", "aprj", "docs", "guide", "index", "ATTACH"]
 draft: false
-title: "성인 ADHD 가이드"
-linkTitle: "성인 ADHD 가이드"
-weight: 9
+title: "#가이드 Adult ADHD CBT"
+weight: 99
 ---
 
 -   티스토리에 올렸던 문서. 구글 문서로 작성 되어 활용하기 어려웠음. 그래서 지식 베이스로 옮기면서 파일 변환 (정리 중)
