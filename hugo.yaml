@@ -1,6 +1,6 @@
 # Configuration
 baseURL: "https://www.junghanacs.com/"
-title: "#authology @junghanacs"
+title: "Meditations on Knowledge and Knowing"
 
 # disablePathToLower: true
 enableRobotsTXT: true
@@ -64,40 +64,36 @@ menu:
       name: Blog
       pageRef: /blog
       weight: 2
-        # - identifier: journal
-        #   name: Journal
-        #   pageRef: /categories/journal
-        #   weight: 4
-    - identifier: talks
-      name: Talks
-      pageRef: /talks
-      weight: 4
+    # - identifier: talks
+    #   name: Talks
+    #   pageRef: /talks
+      # weight: 4
     - identifier: about
       name: About
       pageRef: /about
-      weight: 5
+      weight: 3
     - name: Notes ↗
-      weight: 6
+      weight: 4
       url: "https://notes.junghanacs.com"
     - name: Search
       weight: 7
       params:
         type: search
-    - name: Bluesky ↗
-      weight: 8
-      url: "https://bsky.app/profile/junghanacs.bsky.social"
+    # - name: Bluesky ↗
+    #   weight: 8
+    #   url: "https://bsky.app/profile/junghanacs.bsky.social"
+    #   params:
+    #     icon: bluesky
+    - name: Threads ↗
+      weight: 7
+      url: "https://www.threads.net/@junghanacs"
       params:
-        icon: bluesky
-    # - name: Threads ↗
-    #   weight: 8
-    #   url: "https://www.threads.net/@junghanacs"
-    #   params:
-    #     icon: threads
-    # - name: GitHub
-    #   weight: 8
-    #   url: "https://github.com/junghan0611/junghanacs.com"
-    #   params:
-    #     icon: github
+        icon: threads
+    - name: GitHub
+      weight: 8
+      url: "https://github.com/junghan0611"
+      params:
+        icon: github
     # - name: Allmylinks
     #   weight: 8
     #   url: "https://allmylinks.com/junghanacs"
@@ -127,29 +123,29 @@ menu:
       - name: Notes ↗
         weight: 2
         url: "https://notes.junghanacs.com"
-      - name: Bluesky ↗
-        weight: 3
-        url: "https://bsky.app/profile/junghanacs.bsky.social"
-        params:
-          icon: bluesky
       - name: Threads ↗
         weight: 4
         url: "https://www.threads.net/@junghanacs"
         params:
           icon: threads
-      - name: Links ↗
+      - name: Github ↗
+        weight: 4
+        url: "https://github.com/junghan0611/"
+        params:
+          icon: github
+      - name: All Links ↗
         weight: 8
         url: "https://allmylinks.com/junghanacs"
+      # - name: Bluesky ↗
+      #   weight: 3
+      #   url: "https://bsky.app/profile/junghanacs.bsky.social"
+      #   params:
+      #     icon: bluesky
     # - name: Mastodon ↗
     #   weight: 3
     #   url: "https://fosstodon.org/@junghanacs"
     #   params:
     #     icon: mastodon
-    # - name: Github ↗
-    #   weight: 4
-    #   url: "https://github.com/junghan0611/junghanacs.com"
-    #   params:
-    #     icon: github
     # - name: living-with-adhd ↗
     #   weight: 5
     #   url: "https://living-with-adhd.tistory.com"
@@ -188,9 +184,9 @@ params:
   navbar:
     displayTitle: true
     displayLogo: false # true
-    logo:
-      path: images/logo.svg
-      dark: images/logo-dark.svg
+    # logo:
+    #   path: images/logo.svg
+    #   dark: images/logo-dark.svg
       # width: 40
       # height: 20
       # link: /
@@ -201,9 +197,8 @@ params:
     width: normal
 
   theme:
-    # light | dark | system
     default: light
-    displayToggle: true
+    displayToggle: false
 
   footer:
     enable: true
@@ -240,6 +235,12 @@ params:
       # date | lastmod | publishDate | title | weight
       sortBy: date
       sortOrder: desc # asc
+
+  highlight:
+    copy:
+      enable: true
+      # hover | always
+      display: hover
 
   comments:
     enable: true
