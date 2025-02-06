@@ -94,6 +94,11 @@ menu:
       url: "https://github.com/junghan0611"
       params:
         icon: github
+    - name: LinkedIn
+      weight: 9
+      url: "https://www.linkedin.com/in/junghan-kim-1489a4306"
+      params:
+        icon: linkedin
     # - name: Allmylinks
     #   weight: 8
     #   url: "https://allmylinks.com/junghanacs"
@@ -110,7 +115,7 @@ menu:
     #   url: "https://github.com/junghan0611"
     # - name: Twitter
     #   weight: 9
-    #   url: "https://twitter.com/junghanacs"
+    #   url: "https://x.com/junghanacs"
     #   params:
     #     icon: x-twitter
 
@@ -123,57 +128,57 @@ menu:
       - name: Notes ↗
         weight: 2
         url: "https://notes.junghanacs.com"
-      - name: Threads ↗
-        weight: 4
-        url: "https://www.threads.net/@junghanacs"
-        params:
-          icon: threads
-      - name: Github ↗
-        weight: 4
-        url: "https://github.com/junghan0611/"
-        params:
-          icon: github
       - name: All Links ↗
         weight: 8
         url: "https://allmylinks.com/junghanacs"
-      # - name: Bluesky ↗
-      #   weight: 3
-      #   url: "https://bsky.app/profile/junghanacs.bsky.social"
-      #   params:
-      #     icon: bluesky
-    # - name: Mastodon ↗
-    #   weight: 3
-    #   url: "https://fosstodon.org/@junghanacs"
-    #   params:
-    #     icon: mastodon
-    # - name: living-with-adhd ↗
-    #   weight: 5
-    #   url: "https://living-with-adhd.tistory.com"
-    # - name: Zotero library ↗
-    #   weight: 6
-    #   url: "https://www.zotero.org/groups/5570207/junghanacs/library"
-    # - name: Youtube ↗
-    #   weight: 7
-    #   url: "https://www.youtube.com/@junghanacs"
-    #   params:
-    #     icon: youtube
-    # - name: Hypothes.is ↗
-    #   weight: 7
-    #   url: "https://hypothes.is/groups/VgqoXXE1/junghanacs"
-    # - name: Naver terms ↗
-    #   weight: 8
-    #   url: "https://vvd.bz/eGeQ"
-    # - name: VIAF ID ↗
-    #   weight: 9
-    #   url: "http://viaf.org/viaf/101153409787341582950"
-    # https://allmylinks.com/junghanacs
-    # - identifier: about
-    #   name: "About"
-    #   pageRef: "/about"
-    #   weight: 3
-    # - name: Twitter
-    #   weight: 10
-    #   url: "https://twitter.com/junghanacs"
+        # - name: Threads ↗
+        #   weight: 4
+        #   url: "https://www.threads.net/@junghanacs"
+        #   params:
+        #     icon: threads
+        # - name: Github ↗
+        #   weight: 4
+        #   url: "https://github.com/junghan0611/"
+        #   params:
+        #     icon: github
+        # - name: Bluesky ↗
+        #   weight: 3
+        #   url: "https://bsky.app/profile/junghanacs.bsky.social"
+        #   params:
+        #     icon: bluesky
+        # - name: Mastodon ↗
+        #   weight: 3
+        #   url: "https://fosstodon.org/@junghanacs"
+        #   params:
+        #     icon: mastodon
+        # - name: living-with-adhd ↗
+        #   weight: 5
+        #   url: "https://living-with-adhd.tistory.com"
+        # - name: Zotero library ↗
+        #   weight: 6
+        #   url: "https://www.zotero.org/groups/5570207/junghanacs/library"
+        # - name: Youtube ↗
+        #   weight: 7
+        #   url: "https://www.youtube.com/@junghanacs"
+        #   params:
+        #     icon: youtube
+        # - name: Hypothes.is ↗
+        #   weight: 7
+        #   url: "https://hypothes.is/groups/VgqoXXE1/junghanacs"
+        # - name: Naver terms ↗
+        #   weight: 8
+        #   url: "https://vvd.bz/eGeQ"
+        # - name: VIAF ID ↗
+        #   weight: 9
+        #   url: "http://viaf.org/viaf/101153409787341582950"
+        # https://allmylinks.com/junghanacs
+        # - identifier: about
+        #   name: "About"
+        #   pageRef: "/about"
+        #   weight: 3
+        # - name: Twitter
+        #   weight: 10
+        #   url: "https://twitter.com/junghanacs"
 
 params:
   description: "Meditations on Technology, Learning, Life, and Text-editor"

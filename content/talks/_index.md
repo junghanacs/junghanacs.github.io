@@ -8,6 +8,8 @@ description: "그의 이야기"
 toc: true
 comments: false
 layout: wide
+sidebar:
+  exclude: true
 ---
 
 <style>details summary { color: green; }</style>

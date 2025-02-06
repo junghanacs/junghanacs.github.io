@@ -1,10 +1,16 @@
 ---
-title: "CV 김정한 (Junghan Kim)"
+today: "CV 김정한 (Junghan Kim)"
 author: ["Junghan Kim"]
 date: 2023-08-14T14:28:00+09:00
 lastmod: 2025-02-01T11:16:00+09:00
 tags: ["notes", "resume"]
 draft: false
+title: "김정한 (Junghan Kim)"
+description: "인생학교 이력서"
+toc: false
+layout: wide
+sidebar:
+  exclude: true
 ---
 
 ## References
@@ -385,58 +391,3 @@ An objective of joint research position to utilize my skills and abilities in an
 |       | - **Junghan Kim**, Inhyuk Kim, Taehyoung Kim, Jin Jo, Young Ik Eom.                                           |
 |       |                                                                                                               |
 |       | - Patent Filed No. 1010779080000, South Korea, September. 2011.                                               |
-
-
-## 작업중 {#작업중}
-
-<span class="timestamp-wrapper"><span class="timestamp">[2025-02-02 Sun 09:57]</span></span>
-
-
-### 대한민국 SW공모대전 국무총리상 {#대한민국-sw공모대전-국무총리상}
-
-미래창조과학부 2010년 11월 수상
-
--   모바일 가상화 소프트웨어
--   지도교수 엄영익 (성균관대)
--   관련기사 <http://www.etnews.com/201011150096>
-
-
-### 스타트업 - 네모유엑스 {#스타트업-네모유엑스}
-
-
-#### 네모유엑스 소개 {#소개}
-
-오블리비언, 아이언맨, 마이너리티 리포트 등과 같은 SF영화에서 볼 수 있었던 대형스크린의 화려한 세계가 생각보다 빠르게 우리 눈앞에 다가오고 있습니다. 백화점이나 지하철 역사 등에서 우리는 다양한 컨텐츠를 통해 Interactive Large Display 세상에 조금씩 익숙해지고 있습니다.
-
-성균관대학교 CS 박사과정 3명이 2012년 시작한 NEMO-UX는 SF 영화에서 보아온 Interactive Large Display Computing 을 위한 새로운 운영체제 "FINE SW플랫폼"을 만들고 있으며, 이를 바탕으로 B2B 솔루션 제공하고 있습니다.
-
-SW플랫폼이란 안드로이드나 iOS와 같은 것이라고 생각하면 됩니다. 피쳐폰에서 스마트폰으로의 변화를 이루어낼 수 있었던 가장 큰 원동력은 안드로이도와 iOS와 같은 SW플랫폼의 등장이었다고 해도 과언이 아닙니다. 이젠 대형스크린의 특성을 반영한 새로운 SW플랫폼이 필요합니다. NEMO-UX에서는 새로운 SW 플랫폼을 기반으로 제2의 스마트 시대를 열고자 합니다.
-
-NEMO-UX는 3년여간의 개발 과정을 거처 Interactive Large Surface를 위한 SW플랫폼인 FINE 플랫폼을 선보였으며, 2014년 11월 독일에서 열린 ACM ITS 국제학술대회에서 처음 공식적으로 공개한 뒤, 국책 과제 및 SKT 에서 펀딩을 받아 본격적으로 창업을 하였습니다.
-
-NEMO-UX에게 2016년은 특별한 해가 될 것입니다. 지난 10월 SKT 와의 협력 사례를 공개한 이후 올해 [1월 HCIK 2016 전시], [2월 MWC 2016 전시], [4월 20대 총선 MBC 개표 생방송] 과 더불어 B2B 솔루션으로 백화점 터치 테이블을 상품화를 하였습니다. 앞으로도 다양한 한 터치 디바이스로 B2B 시장을 열어 나갈 것입니다.
-
-더 자세한 내용을 알고자 하시는 분은 아래 Link를 참고하시기 바랍니다.
-
-NEMO-UX는 열려있습니다. 관심있으신 분들은 언제든 연락주세요.
-
-Email : nemoux@nemoux.net
-
-[Link: Homepage](http://www.nemoux.net)
-
-[Link: 2016 NEMO-UX 소개자료](http://www.slideshare.net/nemoux/2016-nemoux-%20introduction)
-
-[Link: [TV 광고] SKT 생활플랫폼 II (30-35초)](https://youtu.be/_XZCK461_DE)
-
-[Link: MBC 20대 총선 개표](https://youtu.be/9ouGE_Ici0s)생방송
-
-[Link: L사 백화점 터치 테이블 영상](https://youtu.be/HWnIVN04tk8)
-
-[Link: SKT 협력 사례 데모 영상 (STESHELL)](https://youtu.be/Y9ycnERkTG4)
-
-[Link: 오픈소스 커스텀 쉘 데모 영상 (MINISHELL)](https://youtu.be/bsTKwx_VNcU)
-
-
-#### 네모유엑스 김정한 {#네모유엑스-김정한}
-
-주요 경력 : 네모유엑스 NEMO-UX 공동창업자 김정한입니다. 마이너리티 리포트, 어벤져스, 오블리비언에 뿅 가서 결국 창업했습니다. 널찍한 디스플레이에 심장이 될 소프트웨어 플랫폼을 만들고 있습니다. 안드로이드, iOS 때문에 여태 모바일에 갇혀 계셨던 분들 새로운 컴퓨팅 시대가 멀지 않았습니다. 좀 더 큼직한 데서 함께 놀아보아요. 감사합니다.
