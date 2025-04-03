@@ -1,68 +1,11 @@
 ---
-today: "CV 김정한 (Junghan Kim)"
+today: "CV (Junghan Kim)"
 author: ["Junghan Kim"]
 date: 2023-08-14T14:28:00+09:00
-lastmod: 2025-02-01T11:16:00+09:00
+lastmod: 2025-02-06T15:45:00+09:00
 tags: ["notes", "resume"]
 draft: false
-title: "김정한 (Junghan Kim)"
-description: "인생학교 이력서"
-toc: false
-layout: wide
-sidebar:
-  exclude: true
 ---
-
-## References
-
-<style>.csl-entry{text-indent: -1.5em; margin-left: 1.5em;}</style><div class="csl-bib-body">
-</div>
-
-
-## Personal {#personal}
-
-가족관계 등
-
-
-## Education {#education}
-
-
-### 인생학교 {#인생학교}
-
-
-### Virginia Tech. 방문 연구원 {#virginia-tech-dot-방문-연구원}
-
-
-### 성균관대학교 컴퓨터공학 박사 수료 {#성균관대학교-컴퓨터공학-박사-수료}
-
-
-### 성균관대학교 컴퓨터공학 석사 {#성균관대학교-컴퓨터공학-석사}
-
-
-### 세종대학교 컴퓨터소프트웨어 학사 {#세종대학교-컴퓨터소프트웨어-학사}
-
-
-## Employement {#employement}
-
-
-### 솔로워커 {#솔로워커}
-
-
-### 성균관대학교 분산컴퓨팅 연구실 연구원 {#성균관대학교-분산컴퓨팅-연구실-연구원}
-
-
-### NEMO-UX Inc. (Co-Founder) {#nemo-ux-inc-dot--co-founder}
-
-
-### BARI Team (Co-Founder) {#bari-team--co-founder}
-
-
-## Other stuff I do {#other-stuff-i-do}
-
--   I work a lot
--   I sleep a lot
--   I eat a lot
-
 
 ## 대학원: Student CV {#h:bd171edd-8ad8-46a1-9c60-883ce32cc7af}
 
@@ -83,7 +26,7 @@ An objective of joint research position to utilize my skills and abilities in an
 |            |                                                                           |                                                               |
 |            | 2066, Seobu-ro, Jangan-gu, Suwon-si, Gyeonggi-do, Korea                   |                                                               |
 | Contact    | +82-10-3007-6766                                                          | junghan@skku.edu, [gtgkjh@gmail.com](mailto:gtgkjh@gmail.com) |
-| Homepage   | junghan0611.wordpress.com                                                 |                                                               |
+| Homepage   | junghanacs.com                                                            |                                                               |
 | Github     | github.com/junghan0611                                                    |                                                               |
 
 
