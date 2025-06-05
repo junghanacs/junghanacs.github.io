@@ -2,10 +2,10 @@
 today: "#home: junghanacs.com"
 author: ["Junghan Kim"]
 date: 2024-04-29T16:57:00+09:00
-lastmod: 2024-12-03T16:21:00+09:00
+lastmod: 2025-01-31T12:54:00+09:00
 keywords: ["homepage"]
 draft: false
-title: "Welcome to junghanacs.com"
+# title: "Welcome to junghanacs"
 toc: false
 ---
 
@@ -27,7 +27,8 @@ toc: false
 ## 둘러보기 {#둘러보기}
 
 <br>
+{{< card link="https://notes.junghanacs.com" title="Notes: DigitalGarden" icon="library">}}
 {{< card link="docs" title="Docs  "icon="book-open" >}}
 {{< card link="blog" title="Blog" icon="sun">}}
 {{< card link="about" title="About" icon="user">}}
-{{< card link="https://notes.junghanacs.com" title="Notes: DigitalGarden" icon="library">}}
+
