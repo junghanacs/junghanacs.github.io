@@ -199,7 +199,7 @@ params:
 
   page:
     # full (100%), wide (90rem), normal (1280px)
-    width: normal
+    width: wide
 
   theme:
     default: light
@@ -259,7 +259,7 @@ params:
       categoryId: DIC_kwDOM5ER884Ci6Wa
       mapping: pathname
       strict: 0
-      reactionsEnabled: 1
+      reactionsEnabled: 0
       emitMetadata: 0
       inputPosition: bottom
       lang: ko

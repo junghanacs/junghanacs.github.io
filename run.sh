@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 rm -Rf public
-hugo server -p 2341 
+hugo server -p 2341 --disableFastRender
 # 
 # --disableFastRender
 # --buildDrafts 
