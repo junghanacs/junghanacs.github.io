@@ -28,7 +28,6 @@ toc: false
 
 <br>
 {{< card link="https://notes.junghanacs.com" title="Notes: DigitalGarden" icon="library">}}
-{{< card link="docs" title="Docs  "icon="book-open" >}}
-{{< card link="blog" title="Blog" icon="sun">}}
+<!-- {{< card link="docs" title="Docs  "icon="book-open" >}} -->
 {{< card link="about" title="About" icon="user">}}
 

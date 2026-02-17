@@ -6,7 +6,6 @@ date: 2024-03-26T05:38:00+09:00
 publishDate: 2023-08-14T15:42:00+09:00
 lastmod: 2023-08-14T15:42:00+09:00
 draft: false
-description: "그의 이야기"
 toc: true
 ---
 

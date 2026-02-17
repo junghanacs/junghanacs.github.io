@@ -5,7 +5,6 @@ date: 2024-04-30T07:16:00+09:00
 keywords: ["docs", "hugo", "menu"]
 draft: false
 weight: 4
-title: FileTree Component
 linkTitle: FileTree
 ---
 

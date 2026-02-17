@@ -4,7 +4,7 @@ author: ["Junghan Kim"]
 date: 2024-05-18T05:57:00+09:00
 keywords: ["adhd", "adult", "aprj", "docs", "guide", "index", "ATTACH"]
 draft: false
-title: "#가이드 Adult ADHD CBT"
+# title: "#가이드 Adult ADHD CBT"
 weight: 99
 ---
 

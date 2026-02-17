@@ -6,7 +6,6 @@ date: 2024-04-30T07:16:00+09:00
 keywords: ["docs", "hugo", "menu", "index"]
 draft: false
 
-title: Guide
 weight: 2
 prev: /docs/orghextra/getting-started
 next: /docs/orghextra/guide/organize-files

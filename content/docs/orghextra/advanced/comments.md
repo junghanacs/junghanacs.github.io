@@ -5,7 +5,6 @@ date: 2024-04-30T07:16:00+09:00
 keywords: ["docs", "hugo", "menu"]
 draft: false
 weight: 2
-title: Comments System
 linkTitle: Comments
 ---
 
@@ -39,7 +38,6 @@ Comments can be enabled or disabled for a specific page in the page front matter
 
 ```yaml { linenos=false,filename="content/docs/about.md" }
 ---
-title: About
 comments: true
 ---
 ```

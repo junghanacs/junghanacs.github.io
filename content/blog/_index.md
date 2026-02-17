@@ -1,6 +1,9 @@
 ---
 title: "Blog"
 comments: false
+draft: true
+cascade:
+  draft: true
 ---
 
 <p class="hx-mb-12 hx-text-center hx-text-lg hx-text-gray-500 dark:hx-text-gray-400">

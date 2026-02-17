@@ -14,7 +14,6 @@ math: true
 
 ```yaml { linenos=false,filename="Markdown" }
 ---
-title: "My Page with LaTeX"
 math: true
 ---
 ```

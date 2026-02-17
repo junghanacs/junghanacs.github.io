@@ -2,7 +2,7 @@
 title: "index"
 author: ["Junghan Kim"]
 draft: false
-title: "#매뉴얼: Emacs Writing Studio"
+# title: "#매뉴얼: Emacs Writing Studio"
 weight: 1
 ---
 

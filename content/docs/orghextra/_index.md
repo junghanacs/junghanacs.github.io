@@ -4,7 +4,6 @@ author: ["Junghan Kim"]
 date: 2024-04-30T07:16:00+09:00
 keywords: ["docs", "hugo", "index"]
 draft: false
-title: "#매뉴얼 hugo§hextra"
 weight: 80
 ---
 

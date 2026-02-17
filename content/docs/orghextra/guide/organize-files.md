@@ -68,7 +68,6 @@ To customize a section to mirror the behavior of a built-in layout, specify the 
 
 ```yaml
 ---
-title: My Docs
 cascade:
   type: docs
 ---
@@ -83,7 +82,6 @@ The sidebar navigation is generated automatically based on the content organizat
 
 ```yaml
 ---
-title: Guide
 weight: 2
 ---
 ```

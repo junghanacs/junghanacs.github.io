@@ -4,7 +4,6 @@ author: ["Junghan Kim"]
 date: 2024-08-28T16:02:00+09:00
 tags: ["langen"]
 draft: false
-title:
 toc: false
 ---
 

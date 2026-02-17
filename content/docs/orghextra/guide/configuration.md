@@ -98,7 +98,6 @@ To exclude a single page from the left sidebar, set the `sidebar.exclude` parame
 
 ```yaml
 ---
-title: Configuration
 sidebar:
   exclude: true
 ---
@@ -134,7 +133,6 @@ Table of contents is automatically generated from the headings in the content fi
 
 ```yaml
 ---
-title: Configuration
 toc: false
 ---
 ```
@@ -155,7 +153,6 @@ The edit links will be automatically generated for each page based on the provid
 
 ```yaml
 ---
-title: Configuration
 editURL: "https://example.com/edit/this/page"
 ---
 ```
@@ -265,7 +262,6 @@ To exclude a page from the search index, set the `excludeSearch: true` in the fr
 
 ```yaml
 ---
-title: Configuration
 excludeSearch: true
 ---
 ```

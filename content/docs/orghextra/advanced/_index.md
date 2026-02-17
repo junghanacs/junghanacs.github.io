@@ -4,7 +4,6 @@ author: ["Junghan Kim"]
 date: 2024-04-30T07:16:00+09:00
 keywords: ["docs", "hugo", "menu", "index"]
 draft: false
-title: "Advanced Topics"
 weight: 3
 linkTitle: Advanced
 prev: /docs/orghextra/guide/shortcodes/tabs
