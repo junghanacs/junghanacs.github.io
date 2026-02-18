@@ -11,9 +11,9 @@ hasCJKLanguage: true
 languageCodeCountry: "kr"
 timeZone: "Asia/Seoul"
 
-services:
-  googleAnalytics:
-    ID: G-SQ5W1JTDLZ
+# services:
+#   googleAnalytics:
+#     ID: G-SQ5W1JTDLZ
 
 # import hextra as module
 module:
@@ -182,6 +182,11 @@ menu:
 
 params:
   description: "Meditations on Technology, Learning, Life, and Text-editor"
+
+  analytics:
+    umami:
+      serverURL: "https://analytics.junghanacs.com"
+      websiteID: "7a8c2953-730e-44f4-b7a9-ee16fd4f80ad"
 
   # sidebar:
   #   hide: true
