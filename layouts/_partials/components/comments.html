@@ -1,0 +1,20 @@
+{{- $enableComments := site.Params.comments.enable | default false -}}
+
+{{ if not (eq .Params.comments nil) }}
+  {{ $enableComments = .Params.comments }}
+{{ end }}
+
+{{- if $enableComments -}}
+  <div id="remark42"></div>
+  <script>
+    var remark_config = {
+      host: '{{ site.Params.comments.remark42.host }}',
+      site_id: '{{ site.Params.comments.remark42.site_id }}',
+      url: window.location.origin + window.location.pathname,
+      theme: localStorage.getItem('color-theme') || 'light',
+      components: ['embed'],
+      show_email_subscription: false,
+    };
+    !function(e,n){for(var o=0;o<e.length;o++){var r=n.createElement("script"),c=".js",d=n.head||n.body;"noModule"in r?(r.type="module",c=".mjs"):r.async=!0,r.defer=!0,r.src=remark_config.host+"/web/"+e[o]+c,d.appendChild(r)}}(remark_config.components||["embed"],document);
+  </script>
+{{- end -}}

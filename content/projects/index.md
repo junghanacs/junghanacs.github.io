@@ -1,5 +1,5 @@
 ---
-title: "Projects"
+title: Projects
 description: "Open source projects powered by Hextra"
 toc: false
 layout: wide

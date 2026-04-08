@@ -20,18 +20,18 @@ module:
   imports:
   - path: github.com/imfing/hextra
 
-defaultContentLanguage: ko
+defaultContentLanguage: en
 languages:
-  ko:
-    languageName: 한국어
-    weight: 1
-    languageCode: ko
-    title: #어쏠로지 @junghanacs
   en:
     languageName: English
-    weight: 2
+    weight: 1
     languageCode: en
-    title: #authology @junghanacs
+    title: "#authology @junghanacs"
+  ko:
+    languageName: 한국어
+    weight: 2
+    languageCode: ko
+    title: "#어쏠로지 @junghanacs"
 
 markup:
   goldmark:
@@ -60,10 +60,10 @@ menu:
     #   name: Docs
     #   pageRef: /docs
     #   weight: 1
-    #    - identifier: blog
-    #      name: Blog
-    #      pageRef: /blog
-    #      weight: 2
+    - identifier: blog
+      name: Blog
+      pageRef: /blog
+      weight: 2
     # - identifier: talks
     #   name: Talks
     #   pageRef: /talks
@@ -208,11 +208,11 @@ params:
 
   theme:
     default: light
-    displayToggle: false
+    displayToggle: true
 
   footer:
     enable: true
-    displayCopyright: true
+    displayCopyright: false
     displayPoweredBy: true
     width: normal
 
@@ -254,17 +254,21 @@ params:
 
   comments:
     enable: true
-    type: giscus
+    type: remark42
 
-    # https://giscus.app/
-    giscus:
-      repo: junghanacs/junghanacs.github.io
-      repoId: R_kgDOM5ER8w
-      category: Announcements
-      categoryId: DIC_kwDOM5ER884Ci6Wa
-      mapping: pathname
-      strict: 0
-      reactionsEnabled: 0
-      emitMetadata: 0
-      inputPosition: bottom
-      lang: ko
+    remark42:
+      host: "https://comments.junghanacs.com"
+      site_id: "www"
+
+    # giscus (disabled — switched to remark42)
+    # giscus:
+    #   repo: junghanacs/junghanacs.github.io
+    #   repoId: R_kgDOM5ER8w
+    #   category: Announcements
+    #   categoryId: DIC_kwDOM5ER884Ci6Wa
+    #   mapping: pathname
+    #   strict: 0
+    #   reactionsEnabled: 0
+    #   emitMetadata: 0
+    #   inputPosition: bottom
+    #   lang: ko

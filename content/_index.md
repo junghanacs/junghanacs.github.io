@@ -1,33 +1,24 @@
 ---
-today: "#home: junghanacs.com"
+title: "#authology @junghanacs"
 author: ["Junghan Kim"]
 date: 2024-04-29T16:57:00+09:00
-lastmod: 2025-01-31T12:54:00+09:00
-keywords: ["homepage"]
 draft: false
-# title: "Welcome to junghanacs"
 toc: false
 ---
 
-## 어쏠로지: 원라이프 인생도구 {#어쏠로지-원라이프-인생도구}
+## Authology: One Life, One Tool
 
--   Authological Thinking
--   Productivity
--   Digital Minimalism
--   Hyper-focus
--   Meaningful Life
--   Inspiration with Sprituality
--   Personalized AI
--   One Shot Publishing
--   Lifetime Use
+- Authological Thinking
+- Productivity & Digital Minimalism
+- Hyper-focus & Meaningful Life
+- Personalized AI
+- One Shot Publishing
 
-삶은 언제나 여여(如如)하다. 이 녀석 하나 뿐이지만 더할 것도 뺄 것도 없다.
+Life is always as-it-is. This one tool is all there is — nothing to add, nothing to remove.
 
-
-## 둘러보기 {#둘러보기}
+## Explore
 
 <br>
-{{< card link="https://notes.junghanacs.com" title="Notes: DigitalGarden" icon="library">}}
-<!-- {{< card link="docs" title="Docs  "icon="book-open" >}} -->
-{{< card link="about" title="About" icon="user">}}
-
+{{< card link="blog" title="Blog" icon="pencil" >}}
+{{< card link="https://notes.junghanacs.com" title="Digital Garden" icon="library" >}}
+{{< card link="about" title="About" icon="user" >}}
